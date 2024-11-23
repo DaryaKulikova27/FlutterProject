@@ -27,5 +27,19 @@ final darkTheme = ThemeData(
       fontWeight: FontWeight.w700,
       fontSize: 14
     )
+  ),
+  textButtonTheme: TextButtonThemeData(
+    style: TextButton.styleFrom(
+      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+      backgroundColor: Colors.blue,
+      foregroundColor: Colors.white, 
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(30), 
+      ),
+      textStyle: const TextStyle(
+        fontSize: 18, 
+        fontWeight: FontWeight.bold,
+      ),
+    ),
   )
 );

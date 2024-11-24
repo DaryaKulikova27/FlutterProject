@@ -7,10 +7,10 @@ class CryptoCurrenciesListApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Flutter Demo',
       theme: darkTheme,
-      routes: routes
+      routerConfig: router
     );
   }
 }
